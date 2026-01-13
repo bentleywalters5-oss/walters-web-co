@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Walters Web Co.</title>
+    < meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        /* NAVBAR */
+        header {
+            background: #0d1b2a;
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            background: #fff;
+            border-radius: 8px;
+        }
+
+        .logo h1 {
+            color: #fff;
+            font-size: 22px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 6px;
+            background: #1b263b;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #415a77;
+        }
+
+        /* HERO */
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: linear-gradient(to right, #1b263b, #415a77);
+            color: #fff;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* IMAGE SECTION */
+        .images {
+            padding: 60px 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .image-box {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            background: #ccc;
+        }
+
+        .image-box p {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #0d1b2a;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <!-- Replace logo.png with your actual logo -->
+            <img src="logo.png" alt="Walters Web Co. Logo">
+            <h1>Walters Web Co.</h1>
+        </div>
+
+        <nav>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h2>Building Powerful Websites</h2>
+        <p>
+            Walters Web Co. creates modern, fast, and professional websites that help
+            businesses grow online. No matter the size we can help.
+        </p>
+    </section>
+
+    <!-- IMAGE PLACEHOLDERS -->
+    <section class="images">
+        <div class="image-box">
+            <img src="image1.jpg" alt="Project 1">
+            <p>Brilliant sites for brilliant prices</p>
+        </div>
+
+        <div class="image-box">
+            <img src="image2.jpg" alt="Project 2">
+            <p>Have a trade but don't know how to market yourself, contact us today!</p>
+        </div>
+
+        <div class="image-box">
+            <img src="image3.jpg" alt="Project 3">
+            <p>Hosted completely free so no monthly costs</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p> Created by Walters Web Co.
+        </p>
+    </footer>
+
+</body>
+</html>
